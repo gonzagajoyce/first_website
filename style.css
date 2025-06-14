@@ -1,0 +1,84 @@
+
+:root{
+    --brand: #8246af;
+}
+
+/* CSS Reset */
+
+
+/* Utilitiy Classes */
+.flex {
+    display: flex;
+   
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/* Utilitiy End */
+
+/* Header Style */
+
+.logo{
+    max-height: 100px ;
+}
+
+span{
+    color: #ffa300;
+}
+
+/* Hero Style */
+
+.hero{
+    background-color: #8246af;
+    color: white;
+    padding: 5%;
+   
+}
+
+.padding-small{
+    padding: 8px;
+}
+
+.padding-medium{
+    padding: 16px;
+}
+
+.padding-large{
+    padding: 32px;
+}
+
+.padding-large{
+    padding: 64px;
+}
+
+article img {
+    width: 24px 
+    
+}
+
+.icon {
+    width: 32px;
+}
+
+.article {
+    background-color: #cdb5df;
+    border-radius: 8px;
+    width: calc(100% / 3 - 64px);
+    word-break: wrap-word;
+}
+
+.action-buttom {
+    background-color:#ffa300;
+    color: black;
+
+}
+
+.gap{
+    gap: 10px;
+}
